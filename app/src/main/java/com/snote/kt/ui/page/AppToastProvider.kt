@@ -19,7 +19,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 
 /**
- * @author gaor
+ * @author snote
  * @date 2025/9/11 10:47
  * @description AppToastProvider
  */

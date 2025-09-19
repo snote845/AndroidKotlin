@@ -6,7 +6,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 
 /**
- * @author gaor
+ * @author snote
  * @date 2025/9/11 10:42
  * @description Toast
  */

@@ -51,6 +51,15 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
 
+    // Coil 核心库，加载图片
+    implementation(libs.coil.compose)
+
+    // Retrofit + OkHttp 核心网络请求库
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+    implementation(libs.okhttp)
+    // 与 Coil 兼容
+    implementation(libs.logging.interceptor)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

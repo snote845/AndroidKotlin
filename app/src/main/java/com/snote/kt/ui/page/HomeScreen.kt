@@ -37,7 +37,7 @@ fun HomeScreen(navController: NavHostController) {
         AppToastProvider {
             Greeting(
                 content,
-                modifier = Modifier.padding(innerPadding),navController
+                modifier = Modifier.padding(innerPadding), navController
             )
         }
     }
@@ -73,6 +73,11 @@ fun Greeting(
                 navController.navigate("details")
             }) {
                 Text("跳转详情界面")
+            }
+            Button(onClick = {
+                navController.navigate("list")
+            }) {
+                Text("历史上的今天")
             }
         }
     }
